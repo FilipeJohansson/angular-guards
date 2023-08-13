@@ -1,0 +1,35 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+
+  background-color: #24252a;
+
+  font-size: 15px;
+  color: white;
+}
+
+#brand {
+  font-weight: bold;
+}
+
+#navbar-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+#navbar-buttons>a {
+  color: #656876;
+  text-decoration: none;
+}
+
+#navbar-buttons>a.active {
+  color: white;
+  font-weight: bold;
+}
+
+#navbar-buttons>a:hover {
+  color: white;
+}

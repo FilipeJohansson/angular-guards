@@ -1,0 +1,26 @@
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  margin: 0;
+}
+
+.message {
+  margin-bottom: 10px;
+
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#oops {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 100px;
+  margin: 0;
+}
+
+.hint {
+  font-size: 15px;
+}

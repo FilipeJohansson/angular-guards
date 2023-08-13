@@ -12,6 +12,6 @@ export class AuthService {
     /**
     * fake an API call
     */
-    return Role.ADMIN;
+    return Role.USER;
   }
 }
