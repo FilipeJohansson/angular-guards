@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { Observable, delay, of } from 'rxjs';
 import { Role } from './role';
 
 @Injectable({
@@ -8,10 +9,10 @@ export class AuthService {
 
   constructor() { }
 
-  getUserRole(): Role {
+  getUserRole(): Observable<Role> {
     /**
     * fake an API call
     */
-    return Role.USER;
+    return of(Role.USER).pipe(delay(1000));
   }
 }
